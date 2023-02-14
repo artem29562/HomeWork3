@@ -56,6 +56,20 @@ public class Main {
     }
     public static void task4() {
         System.out.println("task 4");
+        byte efficiencyMachine = 16/2;
+        byte efficiencyMachineOneMinute = efficiencyMachine;
+        int efficiencyMachineTwentyMinute = 20/efficiencyMachine;
+        int efficiencyMachineOneDay = 1440/efficiencyMachine;
+        int efficiencyMachineThreeDay = efficiencyMachineOneDay * 3;
+        int efficiencyMachineOneMonth = efficiencyMachineOneDay * 31;
+
+        System.out.println("За 20 минут машина произвела " +  efficiencyMachineTwentyMinute + " штук бутылок");
+        System.out.println("За 1 день машина произвела " +  efficiencyMachineOneDay + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " +  efficiencyMachineThreeDay + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " +  efficiencyMachineOneMonth + " штук бутылок");
+
+
+
 
 
 
