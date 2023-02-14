@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -92,6 +93,22 @@ public class Main {
         System.out.println();
 
     }
+    public static void task6() {
+    System.out.println("task 6");
+
+    short bananas = 5*40;
+    short milk = 2*105;
+    short iceCream = 2*100;
+    short eggs = 4*70;
+    int resumeGramBreakfast = bananas + milk + iceCream + eggs;
+    float resumeKgBreakfast = resumeGramBreakfast / 1000F;
+
+        System.out.println("Завтрак в граммах " + resumeGramBreakfast + " в киллограммах " +resumeKgBreakfast );
+
+
+        System.out.println();
+
+}
 
 }
 
