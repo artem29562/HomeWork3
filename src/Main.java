@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         task1();
+        task2();
     }
 
     public static void task1() {
@@ -21,4 +22,20 @@ public class Main {
         System.out.println();
 
     }
+    public static void task2() {
+        System.out.println("task 2");
+
+        float a = 27.12F;
+        long b = 987678965549L;
+        double c = 2.786;
+        short d = 569;
+        short e = -159;
+        int f = 27897;
+        byte g = 67;
+
+        System.out.println();
+
+    }
 }
+
+
