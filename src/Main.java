@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -125,6 +126,35 @@ public class Main {
         System.out.println("При похудении на 250 грамм в день понадобится " + daysToLoseWeight500 + " дней" );
 
         System.out.println();
+
+
+    }
+    public static void task8() {
+        System.out.println("task 8");
+
+        int salaryMaria = 67760;
+        int salaryDenis  = 83690;
+        int salaryKristina = 76230;
+        int salaryOneOldYearMaria = salaryMaria * 12;
+        int salaryOneOldYearDenis = salaryDenis * 12;
+        int salaryOneOldYearKristina = salaryKristina * 12;
+        short indexSalaryPercent = 10;
+        int newSalaryMaria = salaryMaria * indexSalaryPercent / 100 + salaryMaria ;
+        int newSalaryDenis = salaryDenis * indexSalaryPercent / 100 + salaryDenis ;
+        int newSalaryKristina = salaryKristina * indexSalaryPercent / 100 + salaryKristina ;
+        int salaryOneYearMaria = salaryMaria * 12;
+
+        System.out.println(newSalaryMaria);
+
+
+
+
+
+
+
+
+        System.out.println();
+
 
     }
 
