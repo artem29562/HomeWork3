@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -109,6 +110,23 @@ public class Main {
         System.out.println();
 
 }
+    public static void task7() {
+        System.out.println("task 7");
+
+        byte weightLoss = 7;
+        short weightLoss250 = 250;
+        short weightLoss500 = 500;
+        int daysToLoseWeight250 = weightLoss * 1000 / weightLoss250;
+        int daysToLoseWeight500 = weightLoss * 1000 / weightLoss500;
+
+
+
+        System.out.println("При похудении на 250 грамм в день понадобится " + daysToLoseWeight250 + " дней");
+        System.out.println("При похудении на 250 грамм в день понадобится " + daysToLoseWeight500 + " дней" );
+
+        System.out.println();
+
+    }
 
 }
 
